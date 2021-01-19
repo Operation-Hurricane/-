@@ -1,0 +1,17 @@
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\bin\Debug\netcoreapp3.1\Shopping_Model.deps.json
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\bin\Debug\netcoreapp3.1\Shopping_Model.dll
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\bin\Debug\netcoreapp3.1\Shopping_Model.pdb
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.csprojAssemblyReference.cache
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.AssemblyInfoInputs.cache
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.AssemblyInfo.cs
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.csproj.CoreCompileInputs.cache
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.dll
+C:\Users\lenovo-3c\Desktop\电商web前段\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.pdb
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\bin\Debug\netcoreapp3.1\Shopping_Model.deps.json
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\bin\Debug\netcoreapp3.1\Shopping_Model.dll
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\bin\Debug\netcoreapp3.1\Shopping_Model.pdb
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.AssemblyInfoInputs.cache
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.AssemblyInfo.cs
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.csproj.CoreCompileInputs.cache
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.dll
+C:\Users\lenovo-3c\Desktop\电商购物平台\Shopping_Web_Api\Shopping_Model\obj\Debug\netcoreapp3.1\Shopping_Model.pdb

@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>星空商城</title>
+    <link href="~/样式/css/LoginStyle.css" rel="stylesheet" />
+</head>
+
+<body class="imges">
+    <div class="content" >
+        <div class="form sign-in">
+            <h2>欢迎回来</h2>
+            <label>
+                <span>用户名</span>
+                <input type="text" id="txtname1"  />
+            </label>
+            <label>
+                <span>密码</span>
+                <input type="password" id="txtpwd1" />
+            </label>
+            <p class="forgot-pass"><lable id="upwd">忘记密码？</lable></p>
+            <button type="button" class="submit" id="Denglu">登 录</button>
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                    <h2>还未注册？</h2>
+                    <p>立即注册，发现大量机会！</p>
+                </div>
+                <div class="img__text m--in">
+                    <h2>已有帐号？</h2>
+                    <p>有帐号就登录吧，好久不见了！</p>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">注 册</span>
+                    <span class="m--in">登 录</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>立即注册</h2>
+                <label>
+                    <span>用户名</span>
+                    <input type="text" id="txtname"  />
+                </label>
+                <label>
+                    <span>密码</span>
+                    <input type="password" id="txtpwd"  />
+                </label>
+                <label>
+                    <span>手机号</span>
+                    <input type="text" id="txtphone"/>
+                </label>
+                <button type="button" class="submit" id="Zhuce">注 册</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/样式/Loginjs.js"></script>
+    <div style="text-align:center;">
+    </div>
+</body>
+</html>
+<script>
+
+    //登录验证
+    $("#Denglu").click(function () {
+        var aa = [];
+        aa.username = $("#txtname1").val();
+        aa.userpwd = $("#txtpwd1").val();
+        //aa.userphone = $("txtphone").val();
+
+        $.ajax({
+            url: "",
+            type: "post",
+            data: { User_Name: User_Name, User_Pwd: User_Pwd },
+            dataType: "json",
+            async: false,
+            success: function (d) {
+                if (d > 0) {
+                    alert("登录成功");
+                    //跳转首页
+                    location.href=""
+                } else {
+                    alert("登录失败");
+                }
+            }
+        });
+    });
+
+    $("#Zhuce").click(function () {
+        var bb = [];
+        bb.username = $("#txtname1").val();
+        bb.userpwd = $("#txtpwd1").val();
+        bb.userphone = $("#txtphone").val();
+
+        $.ajax({
+            url: "",
+            type: "post",
+            data: bb,
+            dataType: "json",
+            async: false,
+            success: function (d) {
+                if (d > 0) {
+                    alert("注册成功");
+                    //首页
+                    location.href = "Users/Login";
+                } 
+            }
+        });
+    });
+
+    //跳转修改密码页面
+    $('#upwd').click(function () {
+        location.herf = "/Users/Updpwd";
+    });
+
+</script>

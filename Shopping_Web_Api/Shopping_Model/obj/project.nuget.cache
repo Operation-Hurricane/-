@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cfxWSzXFOAe3bSlLvOc68VVJJeYGa6v0/3d0C7BPULzdOjvI824wD01a3PGDpXFpcNMphtS5oObWw3VDDPu86Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo-3c\\Desktop\\电商购物平台\\Shopping_Web_Api\\Shopping_Model\\Shopping_Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo-3c\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\lenovo-3c\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
